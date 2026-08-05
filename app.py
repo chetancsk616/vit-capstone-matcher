@@ -15,7 +15,7 @@ except Exception:
 
 
 st.set_page_config(
-    page_title="Off-Campus Internship Scraper & VIT Capstone Matcher",
+    page_title="Mission IAS: Black Card Protocol",
     page_icon="🎓",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -294,7 +294,7 @@ def main() -> None:
         """
         <section class="hero">
             <div class="pill">VIT Capstone Compliant Engine</div>
-            <h1>Off-Campus Internship Scraper & VIT Capstone Matcher</h1>
+            <h1>Mission IAS: Black Card Protocol</h1>
             <p>Search verified tech job boards, score internship postings against VIT 20-credit Capstone conversion signals, and export a shortlist with direct application links.</p>
         </section>
         """,
