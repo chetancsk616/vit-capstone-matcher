@@ -1,0 +1,36 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+.venv_sys/
+.venv-build/
+venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# PyInstaller output
+build/
+dist/
+*.spec
+
+# Large local binaries
+outputs/*.exe
+outputs/*.dmg
+outputs/*.pkg
+outputs/*.app/
+
+# Local scratch space
+work/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
