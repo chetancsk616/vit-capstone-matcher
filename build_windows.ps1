@@ -9,7 +9,7 @@ if (-not (Test-Path ".venv-build")) {
 
 . .\.venv-build\Scripts\Activate.ps1
 python -m pip install --upgrade pip
-python -m pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org -r requirements.txt
+python -m pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org -r requirements-build.txt
 
 python -m PyInstaller `
     --name VITCapstoneMatcher `
